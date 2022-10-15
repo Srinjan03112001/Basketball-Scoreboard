@@ -1,0 +1,43 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        
+        <div id="header">
+            <h1> BASKETBALL MATCH SCOREBOARD </h1>
+            </div>
+        <div class="container">
+            
+            <div class="column">
+                <h3 id="home">HOME</h3>
+                <h2 class="score" id="home-score">0</h2>
+                <div class="points">
+                    <button onclick="homeScore(1)">+1</button>
+                    <button onclick="homeScore(2)">+2</button>
+                    <button onclick="homeScore(3)">+3</button>
+                </div>
+            </div>
+            <div class="column">
+                <h3 id="guest">GUEST</h3>
+                <h2 class="score" id="guest-score">0</h2>
+                <div class="points">
+                    <button onclick="guestScore(1)">+1</button>
+                    <button onclick="guestScore(2)">+2</button>
+                    <button onclick="guestScore(3)">+3</button>
+                </div>
+            </div>
+            </div>
+            
+        </div>
+        <div id="btns">
+                <button id="end-match-btn" onclick="result()">END MATCH</button>
+                <button id="reset-match" onclick="reset()">RESET</button>
+                <div>
+                    <p id="result"></p>
+                </div>
+            </div>
+        <script src="index.js"></script>
+    </body>
+</html>

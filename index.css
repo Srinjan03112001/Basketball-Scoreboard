@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    text-align: center;
+    background: #1B244A;
+}
+
+
+h1, h3{
+    color: white;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+}
+
+h1{
+    color: white;
+    border: 3px solid white;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.score{
+    font-family: 'Roboto', sans-serif;
+    background: black;
+    margin: 20px;
+    width: 120px;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    top: 125px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#end-mtch-btn{
+    padding-top: 50px;
+}
+
+#result{
+    color: #F7AB3A;
+}
+
+#end-match-btn, #reset-match{
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+p{
+    font-size: 30px;
+}
+
